@@ -1,0 +1,11 @@
+name: Second_workflow
+on:
+  workflow_run:
+    workflows:
+        - Main_workflow
+    types:
+        - completed
+
+
+  
+
